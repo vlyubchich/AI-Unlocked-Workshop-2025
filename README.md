@@ -82,8 +82,7 @@ AI-Unlocked-Workshop-2025/
 ├── backup-materials/              # Backup of critical files
 │   ├── all-slides.zip
 │   ├── all-notebooks.zip
-│
-└── LICENSE                        # Open-source license (if needed)
+
 ```
 
 ## How to Use This Structure
