@@ -27,7 +27,7 @@ AI-Unlocked-Workshop-2025/
 ├── README.md                       # Guidelines for presenters
 ├── AI-Unlocked-workshop-agenda.pdf # Workshop schedule
 ├── track1-beginner/                # Beginner Track Materials
-│   ├── 01-introduction-to-ai/          
+│   ├── introduction-to-ai/          
 │   │   ├── slides.pdf              # Presentation slides by Jason Armbruster (University of Colorado-Boulder)
 │   │   ├── workshop-notes.md       # Summary notes
 │   │   ├── code/                   # Code files
@@ -35,41 +35,41 @@ AI-Unlocked-Workshop-2025/
 │   │   │   ├── example2.py
 │   │   ├── notebooks/              # Jupyter Notebooks
 │   │   │   ├── intro_to_ai.ipynb
-│   ├── 02-computational-resources/
+│   ├── computational-resources/
 │   │   ├── slides.pdf              # Presentation by Dave Hart (NCAR)
 │   │   ├── workshop-notes.md
 │   │   ├── setup-instructions.md   # How to access resources
-│   ├── 03-overview-of-ai-tools/
+│   ├── overview-of-ai-tools/
 │   │   ├── slides.pdf              # Presentation by Gil Speyer (Arizona State University)
 │   │   ├── workshop-notes.md
-│   ├── 04-how-to-use-hpc/
+│   ├── how-to-use-hpc/
 │   │   ├── slides.pdf           # Presentation by Mary Thomas (San Diego Supercomputing Center)
 │   │   ├── workshop-notes.md
 │   │   ├── code/
-│   ├── 05-submitting-ai-jobs/
+│   ├── submitting-ai-jobs/
 │   │   ├── slides.pdf           # Presentation by Mary Thomas (San Diego Supercomputing Center)
 │   │   ├── workshop-notes.md
 │   │   ├── code/
 │   ├── ... (more sessions) ...
 │
 ├── track2-advanced/             # Advanced Track Materials
-│   ├── 01-introduction-to-pytorch/ 
+│   ├── introduction-to-pytorch/ 
 │   │   ├── slides.pdf           # Presentation by Lonnie Crosby (University of Tennessee-Knoxville)
 │   │   ├── workshop-notes.md
 │   │   ├── code/
 │   │   ├── notebooks/
-│   ├── 02-ai-tool-lightning-talks/
+│   ├── ai-tool-lightning-talks/
 │   │   ├── slides.pdf           # Talks by Cerebras, Databricks, Google, Microsoft, SambaNova, Cloudbank
-│   ├── 03-aws-tools-showcase/
+│   ├── aws-tools-showcase/
 │   │   ├── slides.pdf           # Presentation by Jack Fenwick (Amazon Web Services)
 │   │   ├── workshop-notes.md
-│   ├── 04-introduction-to-tensorflow/
+│   ├── introduction-to-tensorflow/
 │   │   ├── slides.pdf           # Presentation by Mahidhar Tatineni (San Diego Supercomputing Center)
 │   │   ├── workshop-notes.md
-│   ├── 05-ai-using-llms/
+│   ├── ai-using-llms/
 │   │   ├── slides.pdf           # Presentation by Danny Havert (Indiana University)
 │   │   ├── workshop-notes.md
-│   ├── 06-deep-learning-vs-machine-learning/
+│   ├── deep-learning-vs-machine-learning/
 │   │   ├── slides.pdf           # Presentation by Paola A. Buitrago (Pittsburgh Supercomputing Center)
 │   │   ├── workshop-notes.md
 │   ├── ... (more sessions) ...
@@ -106,7 +106,7 @@ AI-Unlocked-Workshop-2025/
 2. Navigate to your session folder and copy your materials there.
 3. Add and commit your files:
    ```bash
-   git add track1-beginner/01-intro-to-ai/*
+   git add track1-beginner/intro-to-ai/*
    git commit -m "Added workshop materials for Intro to AI"
    git push origin main
 
