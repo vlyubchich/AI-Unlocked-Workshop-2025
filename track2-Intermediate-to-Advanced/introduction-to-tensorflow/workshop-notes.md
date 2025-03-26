@@ -1,11 +1,27 @@
 ## Hands-On Material for Introduction to TensorFlow Session
 
 ### Jupyter Notebook on Expanse
-
+(a) Login to the Expanse portal following the directions given in the prep email & folder <br>
+(b) Open a terminal window from the portal <br>
+(c) Clone the repository (if not already done) <br>
+```
+git clone https://github.com/access-ci-org/AI-Unlocked-Workshop-2025.git
+```
+(d) Click on the Jupyter App and it should send you to a form <br>
+(e) In the form fill out the following fields: <br>
+Account: <b>ukl119</b> <br>
+Partition: <b>shared</b> <br>
+Time Limit: <b> 30 </b> <br>
+Number of cores: <b> 4 </b> <br>
+Memory Required: <b> 4 </b> <br>
+GPU: <b> 0 </b> <br>
+Singularity image file location: <b>/cm/shared/apps/containers/singularity/tensorflow/tensorflow-latest.sif </b> <br>
+Environment modules to be loaded: <b> singularitypro </b> <br>
+and then submit the form. You should see a status screen. Make sure the job is running, mapped, and proxied before proceeding further. Once you get the jupyter link, click on it and then navigate the folders to the tensorflow directory to find our notebook (C24_DL_MNIST_INTRO_v1soltn.ipynb). Start the notebook and follow along in the notebook.
 ### Batch jobs on Expanse and Delta
 
 (a) Open a terminal window via the portal on Expanse OR Delta <br>
-(b) Clone the repository
+(b) Clone the repository (if not already done)
 ```
 git clone https://github.com/access-ci-org/AI-Unlocked-Workshop-2025.git
 ```
