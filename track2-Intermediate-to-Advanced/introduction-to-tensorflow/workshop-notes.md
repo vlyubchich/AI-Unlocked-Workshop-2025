@@ -31,13 +31,13 @@ cd AI-Unlocked-Workshop-2025/track2-Intermediate-to-Advanced/introduction-to-ten
 ```
 (d) Run jobs <br>
 #### On Expanse: <br>
-Multinode tfdist GPU Job:
-```
-sbatch run-clusterresolver-gpu2node.sb
-```
 Multinode Horovod Job:
 ```
 sbatch run-hvd-main-cpu2.sb
+```
+Multinode tfdist GPU Job (we might run into queue limits on this one but the job is quick so can wait and retry) :
+```
+sbatch run-clusterresolver-gpu2node.sb
 ```
 #### On Delta: <br>
 Run batch job using NGC container:
