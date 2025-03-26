@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#SBATCH --qos=normal-eot
 #SBATCH --job-name=tfhvd-cpu
 #SBATCH --account=ukl119
 #SBATCH --partition=compute
