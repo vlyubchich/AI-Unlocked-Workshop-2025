@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=clusterresolver
-#SBATCH --account=use300
+#SBATCH --account=ukl119
 #SBATCH --partition=gpu
 #SBATCH --nodes=2  
 #SBATCH --ntasks-per-node=1 
