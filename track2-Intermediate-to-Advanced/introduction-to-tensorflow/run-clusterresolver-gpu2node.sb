@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=clusterresolver
+#SBATCH --account=use300
+#SBATCH --partition=gpu
+#SBATCH --nodes=2  
+#SBATCH --ntasks-per-node=1 
+#SBATCH --cpus-per-task=40
+#SBATCH --gpus=8
+#SBATCH --mem=200G
+#SBATCH --output=slurm.gpu2node.%x.o%j.out
+#SBATCH --time=00:30:00
+
+
+module load singularitypro/3.11  
+srun singularity exec --bind /scratch,/expanse /cm/shared/apps/containers/singularity/tensorflow/tensorflow-latest.sif python3 test.py

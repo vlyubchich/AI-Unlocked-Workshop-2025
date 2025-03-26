@@ -1,0 +1,26 @@
+#!/bin/bash
+#SBATCH --mem=64g
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=16    
+#SBATCH --partition=gpuA100x4-interactive   
+#SBATCH --account=beeh-delta-gpu
+#SBATCH --job-name=tfNGC
+### GPU options ###
+#SBATCH --gpus-per-node=1
+#SBATCH --gpus-per-task=1
+#SBATCH --gpu-bind=verbose,per_task:1
+#SBATCH -t 00:30:00
+
+module reset # drop modules and explicitly load the ones needed
+             # (good job metadata and reproducibility)
+             # $WORK and $SCRATCH are now set
+module list  # job documentation and metadata
+
+echo "job is starting on `hostname`"
+
+# run the container binary with arguments: python3 <program.py>
+# --bind /projects/bbXX  # add to apptainer arguments to mount directory inside container
+apptainer run --nv \
+ /sw/external/NGC/tensorflow:22.06-tf2-py3 python3 \
+ tensorflow_test.py
