@@ -55,9 +55,14 @@ AI-Unlocked-Workshop-2025/
 ├── track2-advanced/             # Advanced Track Materials
 │   ├── introduction-to-pytorch/ 
 │   │   ├── slides.pdf           # Presentation by Lonnie Crosby (University of Tennessee-Knoxville)
-│   │   ├── workshop-notes.md
-│   │   ├── code/
-│   │   ├── notebooks/
+│   │   ├── setup-notes.md       # Instructions for Hands-On session.
+|   |   ├── pytorch_tensors_solution.pdf  # PDF versions of solution notebooks.
+|   |   ├── pytorch_models_solution.pdf
+│   │   ├── notebooks/           # Jupyter Notebooks for Hands-On session.
+│   │   │   ├── pytorch_tensors_problems.ipynb
+│   │   │   ├── pytorch_tensors_solution.ipynb
+│   │   │   ├── pytorch_models_problems.ipynb
+│   │   │   ├── pytorch_models_solution.ipynb
 │   ├── ai-tool-lightning-talks/
 │   │   ├── slides.pdf           # Talks by Cerebras, Databricks, Google, Microsoft, SambaNova, Cloudbank
 │   ├── aws-tools-showcase/
