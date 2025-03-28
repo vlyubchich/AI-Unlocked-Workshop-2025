@@ -106,7 +106,7 @@ AI-Unlocked-Workshop-2025/
 #### **Option 2: Upload via Git (Recommended for multiple files)**
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/ACCESS/AI-Unlocked-Workshop-2025.git
+   git clone https://github.com/access-ci-org/AI-Unlocked-Workshop-2025.git
    cd AI-Unlocked-Workshop-2025
 2. Navigate to your session folder and copy your materials there.
 3. Add and commit your files:
