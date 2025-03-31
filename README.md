@@ -1,7 +1,7 @@
 **AI Unlocked Workshop — User Reference Guide**
 <br>
 GitHub      : <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025>\
-Agenda      : <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/blob/main/AI-Unlocked-workshop-agenda.pdf>
+Agenda      : <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/blob/main/AI-Unlocked-workshop-agenda.pdf>\
 Google Drive: <https://drive.google.com/drive/u/1/folders/1GyZu2gXQ0crcWpzEfi3AKm3GI7VdTNku>
 
 # Accessing Workshop Resources
