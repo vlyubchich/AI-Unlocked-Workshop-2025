@@ -29,8 +29,8 @@ Cores: CPU: 16 GPU: 1\
 RAM: CPU: 16G GPU: up to 64G\
 GPU (if used): 1\
 Time Limit (min): 60\
-File (for TensorFlow): /cm/shared/apps/containers/singularity/tensorflow/tensorflow-latest.sif\
-File (for PyTorch): /cm/shared/apps/containers/singularity/pytorch/pytorch-latest.sif\
+Singularity Image File Location (for TensorFlow): /cm/shared/apps/containers/singularity/tensorflow/tensorflow-latest.sif\
+Singularity Image File Location (for PyTorch): /cm/shared/apps/containers/singularity/pytorch/pytorch-latest.sif\
 Modules: singularitypro\
 Reservation: nairrworkshop (this reservation can be used only from April 2, 9AM – April 3, 1:30PM), any other time leave blank\
 
