@@ -18,6 +18,8 @@ git clone <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025.git>
 
 ## **Jupyter Notebook Settings (Open On Demand) — Expanse**
 
+Expanse Open On Demand Portal: <https://portal.expanse.sdsc.edu/>
+
 Account: ukl119 or TG-CIS250186\
 Partition (CPU jobs): shared\
 Partition (GPU jobs): gpu-shared\
@@ -38,6 +40,7 @@ Tips for EXPANASE:
 \- Only use 'compute' partition with 'normal-eot' QOS for special short batch needs.
 
 ## **Jupyter Notebook Settings (Open On Demand) — Delta**
+Delta Open on demand Portal : <https://openondemand.delta.ncsa.illinois.edu/>
 
 ## For CPU Jobs
 
@@ -58,6 +61,7 @@ RAM: 64G\
 GPUs: 1
 
 ## **Jupyter Notebook Settings (Open On Demand) — DeltaAI**
+DeltaAI Open On Demand portal  :<https://gh-ondemand.delta.ncsa.illinois.edu/>
 
 Account: beeh-dtai-gh\
 Partition: ghx4-interactive\
