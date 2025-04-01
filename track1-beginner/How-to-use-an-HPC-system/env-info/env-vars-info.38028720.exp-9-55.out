@@ -1,0 +1,24 @@
+[mthomas@login02]$ cat env-vars-info.38028720.exp-9-55.out 
+----------------------------------
+hostname=  exp-9-55
+date=  Mon Mar 31 23:55:42 PDT 2025
+whoami=  mthomas
+pwd=  /home/mthomas/sdsc.git/hpctr-examples/env_info
+
+Currently Loaded Modules:
+  1) slurm/expanse/23.02.7   2) cpu/0.17.3b (c)
+
+  Where:
+   c:  built natively for AMD Rome
+
+ 
+
+module list= 
+----------------------------------
+SLURM_JOB_NAME= env-vars-info
+SLURM_JOB_ID= 38028720
+SLURM_SUBMIT_HOST= login02
+SLURM_SUBMIT_DIR= /home/mthomas/sdsc.git/hpctr-examples/env_info
+SLURM_JOB_NODELIST= exp-9-55
+----------------------------------
+

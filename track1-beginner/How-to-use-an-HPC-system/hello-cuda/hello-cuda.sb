@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name="hello_cuda"
+
+#SBATCH --output="hello_cuda.%j.%N.out"
+#SBATCH --partition=gpu-shared
+#SBATCH --nodes=1
+#SBATCH --gpus=2
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=93G
+####SBATCH --account=<<project*>>
+#SBATCH --account=use300
+#SBATCH --no-requeue
+#SBATCH -t 00:05:00
+
+module purge
+module load slurm 
+module load gpu/0.15.4  
+module load gcc/7.2.0
+module load cuda/11.0.2
+
+./hello_cuda 
