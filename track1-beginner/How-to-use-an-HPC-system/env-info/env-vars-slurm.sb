@@ -8,7 +8,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --export=ALL
 #SBATCH -t 00:1:00
-#SBATCH -A use300
+#SBATCH -A ukl119
 
 ## Environment
 module purge
