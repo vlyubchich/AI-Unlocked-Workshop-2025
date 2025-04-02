@@ -9,7 +9,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=93G
 ####SBATCH --account=<<project*>>
-#SBATCH --account=use300
+#SBATCH --account=ukl119
+#SBATCH --res=nairrworkshop
 #SBATCH --no-requeue
 #SBATCH -t 00:05:00
 
