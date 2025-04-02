@@ -12,4 +12,4 @@
 
 
 module load singularitypro/3.11  
-srun singularity exec --bind /scratch,/expanse /cm/shared/apps/containers/singularity/tensorflow/tensorflow-latest.sif python3 test.py
+srun singularity exec --bind /scratch,/expanse /cm/shared/apps/containers/singularity/tensorflow/tensorflow-latest.sif python3 tensorflow_test.py
