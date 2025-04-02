@@ -2,6 +2,8 @@
 #SBATCH --job-name="env-vars-info"
 #SBATCH --output="env-vars-info.%j.%N.out"
 #SBATCH --partition=compute
+#SBATCH --res=nairrworkshop
+#SBATCH --qos=normal-eot
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --export=ALL
