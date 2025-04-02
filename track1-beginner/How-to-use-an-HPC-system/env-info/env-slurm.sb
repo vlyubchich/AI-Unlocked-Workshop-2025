@@ -2,12 +2,14 @@
 #SBATCH --job-name="envinfo"
 #SBATCH --output="envinfo.%j.%N.out"
 ####SBATCH --partition=compute
-#SBATCH --partition=debug
+#SBATCH --partition=shared
+###Reservation for workshop
+#SBATCH --res=nairrworkshop
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --export=ALL
 #SBATCH -t 00:1:00
-#SBATCH -A use300
+#SBATCH -A ukl119
 
 ##  Load module file(s) into the shell environment
 module purge
