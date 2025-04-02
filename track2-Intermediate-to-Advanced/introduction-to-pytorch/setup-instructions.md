@@ -49,6 +49,6 @@ The following command can be run on these resources to download the workshop mat
      - On Delta and DeltaAI, the Interactive session card will update from "Queued" to "Running" in the upper right hand corner of the card.  Select the "Connect to Jupyter" button to connect to JupyterLab.
      - On Expanse, a new webrowser screen will load showing links to "Jupyter Sessions".  Click the link (usually the latest one - timestamp is listed to the left of the link) to connect to JupyterLab.
   6. Navigate to the AI-Unlocked-Workshop-2025/track2-Intermediate-to-Advanced/introduction-to-pytorch/notebooks folder.
-  7. Open the appropriate pytorch_tensors_problems.ipynb or pytorch_models_problesm.ipynb file.
+  7. Open the appropriate pytorch_tensors_problems.ipynb or pytorch_models_problems.ipynb file.
    
      
