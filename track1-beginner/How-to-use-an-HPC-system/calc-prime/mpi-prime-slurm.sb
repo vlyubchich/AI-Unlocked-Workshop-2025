@@ -2,13 +2,15 @@
 #SBATCH --job-name="mpi_prime"
 #SBATCH --output="mpi_prime.%j.%N.out"
 ###SBATCH --partition=compute
-#SBATCH --partition=debug
+#SBATCH --partition=shared
+###Reservation for workshop to be removed if using later
+#SBATCH --res=nairrworkshop
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=24
 #SBATCH --mem=8GB
 #SBATCH --export=ALL
 #SBATCH -t 00:10:00
-#SBATCH -A use300
+#SBATCH -A ukl119
 
 #This job runs with 1 node, 24 cores per node for a total of 24 cores.
 
