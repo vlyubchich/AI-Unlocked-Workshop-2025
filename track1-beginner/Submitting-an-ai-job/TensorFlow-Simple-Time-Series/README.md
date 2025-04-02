@@ -30,7 +30,7 @@ In Expanse, we have command-line options for building software environments like
   - CPU:
   
 ```
-galyleo launch --account ukl119 --partition shared --reservation=nairrworkshop --cpus 2 --memory 4 --time-limit 00:30:00 --env-modules singularitypro --sif /cm/shared/apps/containers/singularity/tensorflow/tensorflow_24.03-tf2-py3.sif
+galyleo launch --account ukl119 --partition shared --reservation nairrworkshop --cpus 2 --memory 4 --time-limit 00:30:00 --env-modules singularitypro --sif /cm/shared/apps/containers/singularity/tensorflow/tensorflow_24.03-tf2-py3.sif
 ```
 
 ## Install Modules
