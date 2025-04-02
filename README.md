@@ -71,6 +71,8 @@ RAM: (leave blank)\
 GPUs: 1
 <br>
 
+**Track2: Deep Learning vs Machine Learning**
+[https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/tree/main/track2-Intermediate-to-Advanced/introduction-to-pytorch>
 
 **Track2: Introduction to Pytorch**
 <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/tree/main/track2-Intermediate-to-Advanced/introduction-to-pytorch>\
@@ -80,3 +82,5 @@ Lab Notes : <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/blob/mai
 <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/tree/main/track2-Intermediate-to-Advanced/introduction-to-tensorflow>\
 Lab notes:
 <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/blob/main/track2-Intermediate-to-Advanced/introduction-to-tensorflow/workshop-notes.md>
+
+
