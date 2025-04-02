@@ -25,8 +25,6 @@ Expanse Open On Demand Portal: <https://portal.expanse.sdsc.edu/>
 Account: ukl119 or TG-CIS250186\
 Partition (CPU jobs): shared\
 Partition (GPU jobs): gpu-shared\
-QOS (GPU jobs only): gpu-shared-eot\
-QOS (compute partition): normal-eot (for short batch jobs only)\
 Cores: CPU: 16 GPU: 1\
 RAM: CPU: 16G GPU: up to 64G\
 GPU (if used): 1\
@@ -35,6 +33,8 @@ Singularity Image File Location (for TensorFlow): /cm/shared/apps/containers/sin
 Singularity Image File Location (for PyTorch): /cm/shared/apps/containers/singularity/pytorch/pytorch-latest.sif\
 Modules: singularitypro\
 Reservation: nairrworkshop (this reservation can be used only from April 2, 9AM – April 3, 1:30PM), any other time leave blank\
+QOS (GPU jobs only): gpu-shared-eot\
+QOS (compute partition): normal-eot (for short batch jobs only)\
 
 Tips for EXPANASE:  
 \- Use 'shared' for all CPU-only interactive jobs.  
