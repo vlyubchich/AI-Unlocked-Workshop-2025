@@ -1,3 +1,9 @@
+Please login to the Expanse portal (https://portal.expanse.sdsc.edu) and then open a terminal window from the portal. Once in the terminal please clone the repository if you have not already done so:
+
+git clone https://github.com/access-ci-org/AI-Unlocked-Workshop-2025.git
+
+Once the repo is cloned we are ready for the hands on part of the tutorial
+
 [1] Compile:
 
 module purge 
