@@ -18,6 +18,8 @@ git clone <https://github.com/access-ci-org/AI-Unlocked-Workshop-2025.git>
 
 ## **Jupyter Notebook Settings (Open On Demand) — Expanse**
 
+<https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/blob/main/track2-Intermediate-to-Advanced/Deep-Learning-vs-Machine-Learning/Expanse%20Instructions%20-%20Getting%20the%20Session%20Jupyter%20Notebook%20Running.pdf>\
+
 Expanse Open On Demand Portal: <https://portal.expanse.sdsc.edu/>
 
 Account: ukl119 or TG-CIS250186\
@@ -42,6 +44,8 @@ Tips for EXPANASE:
 ## **Jupyter Notebook Settings (Open On Demand) — Delta**
 Delta Open on demand Portal : <https://openondemand.delta.ncsa.illinois.edu/>
 
+<https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/blob/main/track2-Intermediate-to-Advanced/Deep-Learning-vs-Machine-Learning/Delta%20Instructions%20-%20Getting%20the%20Session%20Jupyter%20Notebook%20Running.pdf>
+
 ## For CPU Jobs
 
 Account: beeh-delta-cpu\
@@ -62,6 +66,8 @@ GPUs: 1
 
 ## **Jupyter Notebook Settings (Open On Demand) — DeltaAI**
 DeltaAI Open On Demand portal  :<https://gh-ondemand.delta.ncsa.illinois.edu/>
+
+<https://github.com/access-ci-org/AI-Unlocked-Workshop-2025/blob/main/track2-Intermediate-to-Advanced/Deep-Learning-vs-Machine-Learning/DeltaAI%20Instructions%20-%20Getting%20the%20Session%20Jupyter%20Notebook%20Running.pdf<
 
 Account: beeh-dtai-gh\
 Partition: ghx4-interactive\
