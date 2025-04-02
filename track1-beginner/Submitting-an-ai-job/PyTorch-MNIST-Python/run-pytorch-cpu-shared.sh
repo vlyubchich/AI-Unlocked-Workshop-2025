@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=pytorch-cpu-shared
 #### Change account below
-#SBATCH --account=use300
+#SBATCH --account=ukl119
 #SBATCH --partition=shared
+#SBATCH --reservation=nairrworkshop
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16
