@@ -4,9 +4,9 @@ The "Introduction to PyTorch" exercises include two Jupyter Notebooks named, "py
 ## Login via SSH on Expanse, Delta, or DeltaAI ##
 It is necessary to login via SSH to Expanse, Delta, or DeltaAI in order to download the workshop materials for use in the hands-on session.  You can access these resouces at the following addresses, where \<username\> is your usename on that resource:
 
-- **Expanse:** `ssh \<username\>@login.expanse.sdsc.edu`		
-- **Delta:** `ssh \<username\>@login.delta.ncsa.illinois.edu`
-- **DeltaAI:** `ssh \<username\>@dtai-login.delta.ncsa.illinois.edu`
+- **Expanse:** `ssh <username>@login.expanse.sdsc.edu`		
+- **Delta:** `ssh <username>@login.delta.ncsa.illinois.edu`
+- **DeltaAI:** `ssh <username>@dtai-login.delta.ncsa.illinois.edu`
 
 ## Download the Workshop Materials ##
 The following command can be run on these resources to download the workshop materials from GitHub.  This command can be run in your home directory or other filesystems available on these resources.
