@@ -3,6 +3,7 @@
 #SBATCH --job-name=tfhvd-cpu
 #SBATCH --account=ukl119
 #SBATCH --partition=compute
+#SBATCH --reservation=nairrworkshop
 #SBATCH --nodes=2  
 #SBATCH --ntasks-per-node=8  #<<<<<------ change this to 16 or 4 and observe changes in training time (listed at end of stdoutput file)
 #SBATCH --cpus-per-task=1
