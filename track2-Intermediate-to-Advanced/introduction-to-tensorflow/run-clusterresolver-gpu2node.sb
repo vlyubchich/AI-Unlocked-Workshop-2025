@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #SBATCH --job-name=clusterresolver
 #SBATCH --account=ukl119
+#SBATCH --reservation=nairrworkshop
 #SBATCH --partition=gpu
 #SBATCH --nodes=2  
 #SBATCH --ntasks-per-node=1 
